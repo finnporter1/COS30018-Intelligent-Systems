@@ -1,6 +1,3 @@
-# load_and_process_data.py — Minimal C.2 implementation (no sequences)
-# + automatic cleanup of any NaT/garbage row when reading cache
-
 import os
 from typing import Iterable, Dict, Any, Optional
 
@@ -131,3 +128,4 @@ def load_and_process_data(
         "target_column": target_column,
         "column_scaler": column_scaler,
     }
+
